@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "my-http",
+    "my-http-server-controllers",
+    "my-http-server-core",
+    "my-http-server-swagger",
+    "my-http-server-web-sockets",
+    "my-http-is-alive-middleware",
+]

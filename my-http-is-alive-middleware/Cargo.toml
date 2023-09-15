@@ -1,0 +1,13 @@
+[package]
+name = "my-http-is-alive-middleware"
+version = "0.5.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+my-http-server-core = { path = "../my-http-server-core" }
+rust-extensions = { tag = "0.1.3", git = "https://github.com/MyJetTools/rust-extensions.git" }
+
+async-trait = "*"
+serde = { version = "*", features = ["derive"] }
